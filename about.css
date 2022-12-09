@@ -1,0 +1,471 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: black;
+    word-spacing: 2px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+
+}
+
+
+ul{
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    /* this turns off underlines in links  */
+
+}
+
+
+/* Nav Bar */
+
+
+.navbar{
+    background: linear-gradient(to right,rgba(165, 42, 42, 0.786),rgb(60, 6, 6));
+    color:burlywood;
+    height: 70px;
+    margin-top: center;
+    border-color: black;
+    border-style: solid;
+    position: sticky;
+    top: 0px;
+
+}
+
+.navbar ul{
+    display:flex;
+    
+}
+
+.navbar a{
+    padding: 40px;
+    margin: 0 5px;
+    font-weight: bold;
+    color: white;
+
+} 
+
+.cart{
+    padding-left: 10px;
+    margin: 10 5px;
+    color: white;
+
+} 
+
+.navbar a:hover {
+    color:burlywood;
+    transition: 0.3s east-out;
+
+}
+
+.navbar .flex{
+    justify-content: space-between;
+    
+}
+
+.container{
+    margin: 0 auto;
+    overflow: auto;
+    padding-left: 100px;
+    padding-right: 20px;
+    overflow: hidden;
+
+}
+
+.flex{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+
+
+/* Products menu  */
+
+
+.dropdownlist{
+    width: 100px;
+    display: none;
+    position: absolute;
+    background-image: url(/Winery/Winery-Project/Images/cork.jpg);
+    padding: 0px;
+    z-index: 1;
+    color: black;
+    height: 200px;
+
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+
+.productdropdown:hover .dropdownlist{
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: solid;
+
+}
+
+.productlist a{
+    color: white;
+    padding: 5px;
+
+}
+
+/* nav bar logo start */
+
+.logo{
+    width:250px;
+    margin-top: -25px;
+
+}
+
+/* nav bar logo end */
+
+
+
+
+/* Top image start */
+
+
+.image1 {
+    margin-top: 10px;
+    width: 100%;
+    max-width: auto;
+    height: 400px;
+    display: flex;
+    padding: 20px;
+
+  }
+
+/* top image finished  */
+
+
+
+/* start of story section */
+
+
+
+.story{
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 20px;
+    border: solid;
+    background-color: burlywood;
+
+}
+
+.story >h2{
+    margin: 40px;
+
+}
+
+/* end of story section  */
+
+
+
+/* team section */
+
+
+
+.team{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px; 
+
+}
+
+.founder{
+    max-width: 33.33%;
+    border: solid;
+    margin-right: 5px;
+    background-color:burlywood;
+
+}
+
+.founder >img{
+    width: 370px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 10px;
+
+}
+
+.founder >h2{
+    margin-left: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: 2px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+
+}
+
+.foundertext{
+    margin-top: -260px;
+    padding: 20px;
+
+}
+.co-founder{
+    max-width: 33.33%;
+    border:solid;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: burlywood;
+
+}
+
+.co-founder>img{
+    width: 350px;
+    height: 354px;
+    margin: 20px 20px;
+    padding-bottom: 10px;
+
+}
+
+.co-founder >h2{
+    margin-left: 130px;
+}
+
+.cotext{
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+.professor{
+    max-width: 33.33%;
+    border:solid;
+    margin-left: 5px;
+    background-color: burlywood;
+
+}
+
+.professor >img{
+    width: 370px;
+    height: 350px;
+    margin: 20px 20px;
+    padding-bottom: 10px;
+    /* object-fit and object postiion allows to keep aspect ratio this brings his face up */
+    object-fit: cover;
+    object-position: 100% 0;
+
+}
+
+.professor >h2 {
+    margin-left: 100px;
+
+}
+
+.professortext{
+    margin-top: 20px;
+    padding: 20px;
+
+}
+
+
+/* address section */
+
+
+
+.container-contact{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-image: url(/Winery/Winery-Project/Images/basement.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.address{
+    background-color: white;
+    padding: 50px;
+    margin: 48px;
+    margin-top: 150px;
+    height: 250px;
+    border: solid;
+
+}
+
+.address >h2{
+    padding-bottom: 10px;
+
+}
+
+.address>h3{
+    padding-top: 10px;
+
+}
+
+.map{
+    padding: 20px;
+
+}
+
+.map>h2{
+    color: black;
+    background-color: white;
+    padding:5px;
+    margin-right: 400px;
+    padding-left: 20px;
+    border: solid;
+
+}
+
+.map >iframe{
+    border: solid;
+    margin-top: 10px;
+
+}
+
+
+/* footer section starts below  */
+
+
+.footer-container {
+    background-color: rgb(39, 39, 78);
+    padding: 16px 0 16px 0;
+
+}
+
+.footer {
+    width: 100%;
+    height:40vh;
+    background-color: rgb(39, 39, 78);
+    color:white;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin:0 auto;
+
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right:64px;
+
+}
+
+.footer-heading h2{
+    margin-bottom:32px;
+
+}
+
+.footer-heading a {
+
+    color:white;
+    text-decoration: none;
+    margin-bottom: 8px;
+
+}
+
+.footer-heading a:hover {
+    color:red;
+    transition: 0.3s east-out;
+
+}
+
+.footer-email-form h2{
+    margin-bottom: 16px;
+    color: white;
+
+}
+
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius:4px;
+    outline: none;
+    border: none;
+    padding-left: 8px;
+    font-size: 16px;
+    margin-bottom: 16px;
+
+}
+
+#footer-email::placeholder{
+    color:rgb(112, 110, 110)
+
+}
+
+#footer-email-btn {
+    width:100px;
+    height:40px;
+    border-radius: 4px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    font-size:16px;
+
+}
+
+#footer-email-btn:hover{
+    cursor:pointer;
+    background-color:rgb(106, 106, 164);
+    transition:all 0.4s east-out;
+
+}
+
+
+
+/* Styling for the Jobs Page  */
+
+
+.jobsnone {
+    background-color: burlywood;
+    text-align: center;
+    width: 600;
+    height: 300;
+    margin: auto;
+    font-size:40px;
+    font-style: italic;
+    border-radius: 40%;
+
+}
+
+/* nothing is here! :) */
+
+.easteregg {
+    background-color: rgb(135, 222, 216);
+    text-align: center;
+    width: 600;
+    height: 300;
+    margin: auto;
+    font-size:10px;
+    font-style: italic;
+    border-radius: 40%;
+    justify-content: center;
+    padding: 6px;
+
+}
+
+.easteregg >img{
+    width: 100px;
+    margin-left: -28px;
+}
+
+.easteregg > a{
+    font-size: 50px;
+    text-decoration: none;
+}

@@ -1,0 +1,263 @@
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+body{background-image: url(Images/Chateau.jpg);
+    /* everything below makes the image auto resize when view point shrinks or expands */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    line-height: 1.6;
+    word-spacing: 2px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+
+}
+
+ul{
+    list-style-type: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    /* this turns off underlines in links  */
+
+}
+
+
+/* Nav Bar */
+
+
+.navbar{
+    background: linear-gradient(to right,rgba(165, 42, 42, 0.786),rgb(60, 6, 6));
+    color:burlywood;
+    height: 70px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 250px;
+    /* to make navbar stick at top while schrolling see the two lines below */
+    position: sticky;
+    top: 51px;
+
+}
+
+
+.navbar ul{
+    display:flex;
+    
+}
+
+.navbar a{
+    padding: 40px;
+    margin: 0 5px;
+    color: white;
+
+} 
+
+.cart{
+    padding-left: 10px;
+    margin: 10 5px;
+    color: white;
+
+} 
+
+.navbar a:hover {
+    color:burlywood;
+    transition: 0.3s east-out;
+
+}
+
+.navbar .flex{
+    justify-content: space-between;
+    
+}
+
+.container{
+    margin: 0 auto;
+    overflow: none;
+    padding-left: 500px;
+    padding-right: 20px;
+    position: sticky;
+
+}
+
+.flex{
+    display:flex;
+   justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.navbar ul a{
+    position: relative;
+
+}
+
+.Logo {
+    border-radius: 100%;
+    height:250px;
+    position: sticky;
+    top: 0;
+    
+}
+
+
+/* Products menu  */
+
+
+.dropdownlist{
+    width: 100px;
+    display: none;
+    position: absolute;
+    background-image: url(/Winery/Winery-Project/Images/cork.jpg);
+    padding: 0px;
+    z-index: 1;
+    color: black;
+    height: 200px;
+    
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+
+}
+
+
+.productdropdown:hover .dropdownlist{
+    display: block;
+    margin-top: 20px;
+    margin-left: 40px;
+    border: solid;
+
+}
+
+.productlist a{
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    font-weight: bold;
+    /* need to make links in dropdown easier to red */
+    
+}
+
+/* logo pic in nav bar  */
+
+.logo{
+    margin-left: -400px;
+    margin-top: -33px;
+    width: 300px;
+    height:125px;
+    position: absolute;
+    top: 0;
+
+}
+
+
+/* end nav bar */
+
+
+/* Footer Section */
+
+
+.footer-container {
+    background-color: rgb(39, 39, 78);
+    padding: 16px 0 16px 0;
+
+}
+
+.footer {
+    width: 100%;
+    height:40vh;
+    background-color: rgb(39, 39, 78);
+    color:white;
+    display:flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    margin:0 auto;
+
+}
+
+.footer-heading{
+    display: flex;
+    flex-direction: column;
+    margin-right:64px;
+
+}
+
+.footer-heading h2{
+    margin-bottom:32px;
+
+}
+
+
+.footer-heading a {
+    color:white;
+    text-decoration: none;
+    margin-bottom: 8px;
+
+}
+
+.footer-heading a:hover {
+    color:red;
+    transition: 0.3s east-out;
+
+}
+
+.footer-email-form h2{
+    margin-bottom: 16px;
+    color: white;
+
+}
+
+#footer-email {
+    width: 250px;
+    height: 40px;
+    border-radius:4px;
+    outline: none;
+    border: none;
+    padding-left: 8px;
+    font-size: 16px;
+    margin-bottom: 16px;
+
+}
+
+#footer-email::placeholder{
+    color:rgb(112, 110, 110)
+
+}
+
+#footer-email-btn {
+    width:100px;
+    height:40px;
+    border-radius: 4px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    font-size:16px;
+
+}
+
+#footer-email-btn:hover{
+    cursor:pointer;
+    background-color:rgb(106, 106, 164);
+    transition:all 0.4s east-out;
+
+}
+
+.Logo {
+    border-radius: 100%;
+    height:250px;
+    position: sticky;
+    top: 0;
+}
