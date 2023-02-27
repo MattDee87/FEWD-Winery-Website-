@@ -94,7 +94,7 @@ a {
     width: 100px;
     display: none;
     position: absolute;
-    background-image: url(/Winery/Winery-Project/Images/cork.jpg);
+    background-image: url(/Images/cork.jpg);
     padding: 0px;
     z-index: 1;
     color: black;
@@ -303,7 +303,7 @@ a {
 
 
 .backgroundimg{
-    background-image: url(/Winery/Winery-Project/Images/topdown.jpeg);
+    background-image: url(/Images/topdown.jpeg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -315,7 +315,7 @@ a {
 
 .backgroundimg >h1{
     text-align: center;
-    background-image: url(/Winery/Winery-Project/Images/cork.jpg);
+    background-image: url(/Images/cork.jpg);
     margin: 10px 40px;
     color: rgb(92, 57, 47);
     border:solid;

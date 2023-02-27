@@ -101,7 +101,7 @@ a {
     width: 100px;
     display: none;
     position: absolute;
-    background-image: url(/Winery/Winery-Project/Images/cork.jpg);
+    background-image: url(/Images/cork.jpg);
     padding: 0px;
     z-index: 1;
     color: black;
@@ -290,7 +290,7 @@ a {
     display: flex;
     justify-content: center;
     margin: 20px;
-    background-image: url(/Winery/Winery-Project/Images/basement.jpg);
+    background-image: url(/Images/basement.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 
