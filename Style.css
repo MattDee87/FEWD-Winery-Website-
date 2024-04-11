@@ -118,7 +118,7 @@ a {
     width: 100px;
     display: none;
     position: absolute;
-    background-image: url(/Images/cork.jpg);
+    background-image: url(Images/cork.jpg);
     padding: 0px;
     z-index: 1;
     color: black;
