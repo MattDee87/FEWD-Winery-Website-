@@ -179,6 +179,8 @@ a {
     margin-right: 5px;
     background-color: burlywood;
     padding: 4px;
+    text-align: left;
+    
 
 }
 
@@ -193,11 +195,15 @@ a {
 }
 
 .feat1text {
+    text-align: left;
+    text-indent: 0;
     margin: 0px 10px;
     margin-top: 20px;
     padding: 7px;
+    hyphens: auto;
 
 }
+
 
 .feat2{
     max-width: 25%;
@@ -220,9 +226,12 @@ a {
 }
 
 .feat2text {
+    text-align: left;
+    text-indent: 0;
     margin: 0px 10px;
     margin-top: 20px;
-    padding-left: 7px;
+    padding: 7px;
+    hyphens: auto;
 
 }
 
@@ -246,9 +255,12 @@ a {
 }
 
 .feat3text {
+    text-align: left;
+    text-indent: 0;
     margin: 0px 10px;
     margin-top: 20px;
     padding: 7px;
+    hyphens: auto;
 
 }
 
